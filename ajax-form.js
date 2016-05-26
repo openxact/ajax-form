@@ -260,7 +260,7 @@
                 tempElementValue && elementValues.push(tempElementValue);
             });
 
-            return elementValues;
+            return elementValues[0];
         },
 
         processFormValue = function(key, value, store) {
